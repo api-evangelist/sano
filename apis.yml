@@ -1,7 +1,28 @@
 aid: sano
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sano.png
 name: Sano
-description: Sano is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sano Genetics is a UK-based precision-medicine company operating a 360-degree
+  platform that connects the workflows behind decentralized clinical trials and
+  research studies. Its services span patient recruitment and outreach, protocol
+  and study design, digital prescreening and consent, electronic medical record
+  retrieval, at-home DNA testing with genetic counseling, participant engagement
+  portals, and biomarker testing programs. The platform helps pharmaceutical
+  sponsors and research teams find, engage, and retain the right participants for
+  genetically-informed studies. Surfaced as a Seedcamp portfolio company and
+  profiled in the API Evangelist network; no public developer API is published
+  at this time.
 url: https://raw.githubusercontent.com/api-evangelist/sano/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Precision Medicine
+- Genetics
+- Clinical Trials
+- Healthcare
+- Genomics
+- Patient Recruitment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://sanogenetics.com
+  url: https://sanogenetics.com
+- type: Blog
+  url: https://sanogenetics.com/resources/blog
+- type: Support
+  url: https://sanogenetics.com/get-in-touch
+- type: PrivacyPolicy
+  url: https://sanogenetics.com/privacy
+- type: TermsOfService
+  url: https://sanogenetics.com/terms
+- type: DomainSecurity
+  url: security/sano-domain-security.yml
+- type: WellKnown
+  url: well-known/sano-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
